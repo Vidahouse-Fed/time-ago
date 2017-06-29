@@ -1,0 +1,33 @@
+{
+  "name": "time-ago.js",
+  "version": "1.0.0",
+  "description": "A simple library to used to format datetime",
+  "main": "dist/time-ago.js",
+  "scripts": {
+    "prepublish": "npm run build",
+    "build": "rollup -c",
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vidahousefed/time-ago.git"
+  },
+  "keywords": [
+    "datetime",
+    "format"
+  ],
+  "author": "luchun",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/vidahousefed/time-ago/issues"
+  },
+  "homepage": "https://github.com/vidahousefed/time-ago#readme",
+  "devDependencies": {
+    "babel-plugin-external-helpers": "^6.22.0",
+    "babel-preset-latest": "^6.24.1",
+    "mocha": "^3.4.2",
+    "rollup": "^0.43.0",
+    "rollup-plugin-babel": "^2.7.1",
+    "rollup-plugin-uglify": "^2.0.1"
+  }
+}
