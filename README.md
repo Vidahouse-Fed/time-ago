@@ -21,7 +21,7 @@
 
 通过npm安装
 
-    npm install timeago.js
+    npm install time-ago.js
     
 或者使用 `script` 引入    
     
@@ -29,7 +29,7 @@
     
 可以使用ES6的 `import` 引入
     
-    import timeago from 'timeago.js';
+    import timeago from 'time-ago.js';
     
 ## 使用
     
